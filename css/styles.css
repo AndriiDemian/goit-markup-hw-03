@@ -1,30 +1,97 @@
+/* ============== COMMON STYLES ============== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+/* ====================BODY================= */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
 
-/* Addredd */
+/* =================Address================== */
 
 .address-list {
     font-style: normal;
 }
 
-h1 {
-    color: #FFF;
-    text-align: center;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 1.12px;
+/* =============== HEADER ============ */
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
-/* Ссылки */
+
+.page-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0; 
+}
+
+.page-navi {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.adr-list {
+    display: flex;
+    gap: 40px;
+}
 
 .main-link:focus {
     color: #404bbf;
 }
 
 .main-link {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -36,23 +103,6 @@ h1 {
     color:#404bbf;
 }
 
-.link {
-    color: #2E2F42;
-    text-decoration: none;
-    line-height: 1.5;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.32px;
-}
-
-.link:hover {
-    color: #404BBF;
-}
-
-.link:active {
-    color: #404BBF;
-}
-
 ul {
     list-style: none;
     margin: 0;
@@ -60,10 +110,13 @@ ul {
 
 /* Контакты */
 .contact {
+    display: block;
     color: #434455; 
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    padding: 24px 0;
+
 }
 
 .contact:hover {
@@ -74,16 +127,38 @@ ul {
     color: #404BBF;
 }
 
+/* ================= TITLE =============== */
+
+.title-main {
+    width: 496px;
+    padding-top: 188px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    color: #FFF;
+    text-align: center;
+    /* Header 1 */
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+
 /* Кнопка */
 .offer-button {
+    display: block;
+    padding: 16px 32px;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-    cursor: pointer;
+    border: none;
 }
 
 .offer-button:hover {
@@ -96,17 +171,41 @@ ul {
 
 /* Скрытый текст */
 .advantages-none {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 /* Секция Advantages */
 
+.main-adv {
+    
+}
+
+.adv-list {
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap: 24px;
+}
+
 .title-adv {
+    min-height: 600px;
     background-color: #2E2F42;
     flex-shrink: 0;
 }
 
 .advantages {
     color: #2E2F42;
+    padding-bottom: 8px;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -208,6 +307,7 @@ ul {
 }
 
 .logo {
+    margin-right: 76px;
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
