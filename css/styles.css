@@ -270,7 +270,7 @@ ul {
 }
 
 .name-team {
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     color: #2E2F42;
     text-align: center;
     font-size: 20px;
@@ -294,7 +294,7 @@ ul {
 }
 
 .our-portf {
-    padding-bottom: 72px    ;
+    margin-bottom: 72px;
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
@@ -305,19 +305,28 @@ ul {
 }
 
 .card-list-portf {
+    
     display: flex;
     flex-wrap: wrap;
+    row-gap: 48px;
     gap: 24px;
 }
+
+.app-info {
+
+}
+
 
 .card-portfolio {
     padding-bottom: 32px;
     border: 1px solid #E7E9FC;
+    border-top: none;
     background: #FFF;
+    width: calc((100% - 48px) / 3);
 }
 
 .our-app {
-    margin-top: 32px;
+    padding-top: 32px;
     padding-bottom: 8px;
     padding-left: 16px;
     padding-right: 16px;
