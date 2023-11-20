@@ -187,13 +187,12 @@ ul {
 /* Секция Advantages */
 
 .main-adv {
-    
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .adv-list {
     display: flex;
-    padding-top: 120px;
-    padding-bottom: 120px;
     gap: 24px;
 }
 
@@ -223,9 +222,17 @@ ul {
 
 .our-team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.card-list {
+    display: flex;
+    gap: 24px;
 }
 
 .title-our-team {
+    padding-bottom: 72px;
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
@@ -236,10 +243,17 @@ ul {
 }
 
 .card-team {
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     background-color: #FFFFFF;
+    padding-bottom: 32px;
 }
 
 .name-team {
+    margin-top: 32px;
+    padding-bottom: 8px;
     color: #2E2F42;
     text-align: center;
     font-size: 20px;
@@ -258,7 +272,12 @@ ul {
 
 /* Portfolio */
 
+.portfolio {
+    padding: 120px 0;
+}
+
 .our-portf {
+    padding-bottom: 72px    ;
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
@@ -268,10 +287,23 @@ ul {
     text-transform: capitalize;
 }
 
+.card-list-portf {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
 .card-portfolio {
+    padding-bottom: 32px;
+    border: 1px solid #E7E9FC;
+    background: #FFF;
 }
 
 .our-app {
+    margin-top: 32px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -280,6 +312,8 @@ ul {
 }
 
 .app {
+    padding-left: 16px;
+    padding-right: 16px;
     color: #434455;
     font-weight: 400;
     line-height: 1.5;
@@ -290,10 +324,13 @@ ul {
 /* Footer */
 
 .main-footer {
+    padding: 120px 0;
     background-color: #2e2f42;
 }
 
 .title-footer {
+    width: 264px;
+    padding-top: 18px;
     color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
