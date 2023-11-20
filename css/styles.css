@@ -305,11 +305,10 @@ ul {
 }
 
 .card-list-portf {
-    
     display: flex;
     flex-wrap: wrap;
-    row-gap: 48px;
     gap: 24px;
+    row-gap: 48px;
 }
 
 .app-info {
@@ -321,9 +320,9 @@ ul {
 
 
 .card-portfolio {
-    padding-bottom: 32px;
     background: #FFF;
     width: calc((100% - 48px) / 3);
+    margin-bottom: 0;
 }
 
 .our-app {
