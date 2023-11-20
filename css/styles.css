@@ -203,7 +203,7 @@ ul {
 
 .adv-list {
     display: flex;
-    gap: 24px;
+    flex-basis: calc((100% - 72px) / 4));
 }
 
 .title-adv {
@@ -212,9 +212,9 @@ ul {
     flex-shrink: 0;
 }
 
-.advantages {
+.advantages-list {
     color: #2E2F42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
