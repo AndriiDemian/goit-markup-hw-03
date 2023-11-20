@@ -57,6 +57,10 @@ body {
 
 /* =============== HEADER ============ */
 
+.page-header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
 .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -91,6 +95,7 @@ body {
 }
 
 .main-link {
+    padding: 24px 0;
     display: block;
     font-weight: 500;
     font-size: 16px;
@@ -129,9 +134,12 @@ ul {
 
 /* ================= TITLE =============== */
 
+.title-adv {
+    padding: 188px 0;
+}
+
 .title-main {
-    width: 496px;
-    padding-top: 188px;
+    max-width: 496px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
@@ -147,9 +155,11 @@ ul {
 
 /* Кнопка */
 .offer-button {
+    min-width: 169px;
     display: block;
     padding: 16px 32px;
     margin: 0 auto;
+
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background-color: #4D5AE5;
@@ -324,13 +334,12 @@ ul {
 /* Footer */
 
 .main-footer {
-    padding: 120px 0;
+    padding: 100px 0;
     background-color: #2e2f42;
 }
 
 .title-footer {
     width: 264px;
-    padding-top: 18px;
     color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
@@ -343,7 +352,21 @@ ul {
     color: #404bbf;
 }
 
+.logo-footer {
+    margin-bottom: 16px;
+    display: inline-block;
+    margin-right: 76px;
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
 .logo {
+    display: inline-block;
     margin-right: 76px;
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
