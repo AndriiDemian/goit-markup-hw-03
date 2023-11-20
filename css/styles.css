@@ -203,7 +203,12 @@ ul {
 
 .adv-list {
     display: flex;
-    flex-basis: calc((100% - 72px) / 4));
+    gap: 24px;
+}
+
+.adv-list-colum {
+    width: calc((100% - 72px) / 4);
+
 }
 
 .title-adv {
@@ -236,13 +241,17 @@ ul {
     padding-bottom: 120px;
 }
 
+.card-info {
+    padding: 32px 0;
+}
+
 .card-list {
     display: flex;
     gap: 24px;
 }
 
 .title-our-team {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
@@ -258,11 +267,9 @@ ul {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     background-color: #FFFFFF;
-    padding-bottom: 32px;
 }
 
 .name-team {
-    margin-top: 32px;
     padding-bottom: 8px;
     color: #2E2F42;
     text-align: center;
