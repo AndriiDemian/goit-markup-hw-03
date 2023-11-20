@@ -313,23 +313,21 @@ ul {
 }
 
 .app-info {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 
 }
 
 
 .card-portfolio {
     padding-bottom: 32px;
-    border: 1px solid #E7E9FC;
-    border-top: none;
     background: #FFF;
     width: calc((100% - 48px) / 3);
 }
 
 .our-app {
-    padding-top: 32px;
-    padding-bottom: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
+    margin-bottom: 8px;
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
